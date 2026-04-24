@@ -67,7 +67,7 @@ def old_training_data_to_list():
 	sentences_train_old = [[] for i in range(0, 8)]
 	labels_train_old = [[] for i in range(0, 8)]
 	for i in range(1, 8):
-		with open(f'{OLD_FOLDER_PATH}/train_{i}.json', 'r') as f:
+		with open(f'{OLD_FOLDER_PATH}/train_data_{i}.json', 'r') as f:
 			for line in f:
 				try:
 					json_data = json.loads(line)
@@ -83,7 +83,7 @@ def old_training_data_to_list():
 	sentences_dev_old = [[] for i in range(0, 8)]
 	labels_dev_old = [[] for i in range(0, 8)]
 	for i in range(1, 8):
-		with open(f'{OLD_FOLDER_PATH}/dev_{i}.json', 'r') as f:
+		with open(f'{OLD_FOLDER_PATH}/dev_data_{i}.json', 'r') as f:
 			for line in f:
 				try:
 					json_data = json.loads(line)
@@ -99,7 +99,7 @@ def old_training_data_to_list():
 	sentences_test_old = [[] for i in range(0, 8)]
 	labels_test_old = [[] for i in range(0, 8)]
 	for i in range(1, 8):
-		with open(f'{OLD_FOLDER_PATH}/test_{i}.json', 'r') as f:
+		with open(f'{OLD_FOLDER_PATH}/test_data_{i}.json', 'r') as f:
 			for line in f:
 				try:
 					json_data = json.loads(line)
