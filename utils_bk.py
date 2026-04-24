@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split
 
 
 # Permanent variables
-NEW_FOLDER_PATH = 'fydata/new'
-OLD_FOLDER_PATH = 'fydata/old'
+NEW_FOLDER_PATH = 'data/new'
+OLD_FOLDER_PATH = 'data/old'
 
 # regex
 REGEX_PATTERNS = (
