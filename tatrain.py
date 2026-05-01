@@ -158,7 +158,7 @@ def main(args):
 	print("--------------------------------------------------")
 	print("Start evaluation", end="\n\n")
 
-	for i in range(1,10):
+	for i in range(1,8):
 
 		print("--------------------------------------------------")
 		print(f"Evaluating for Title: {titles[i-1]}")
