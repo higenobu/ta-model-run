@@ -42,7 +42,7 @@ class EconIndicatorDataset(Dataset):
 		text = str(self.text[index])
 		text = " ".join(text.split())
 
-		inputs = self.tokenizer.encode_plus(
+		inputs = self.tokenizer(
 			text,
 			None,
 			add_special_tokens=True,
